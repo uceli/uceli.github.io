@@ -1,0 +1,552 @@
+@charset "utf-8";
+
+header, main, nav, footer, figure, figcaption, aside, section, article { display: block; }
+
+
+
+/* --------------------------------- Element Selectors -------------------- */ 
+
+
+body {
+	background-color: #AD9470;
+	background-image: url(images/IMG_1447_crop.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #000000; /* #000000 = black text*/
+	font-family: Verdana, Arial, sans-serif; /* these fonts are displayed in that order, depending on what is installed on the client */
+	width: 960px;
+	margin: 0 auto;
+	
+}
+
+header {
+	align-content: center;
+	text-align: center;
+	/*border: red 1px solid;  ---- identify header border, for testing only*/
+}
+
+
+
+
+/* ----- START NAV LINKS ----- */
+nav {
+	
+	width: 100%;
+	padding: 1px;
+	text-align: center;
+	border: #000000 solid; /*FCECDF*/
+	background-color: #a8ad70;
+	padding-left: 50px;
+	padding-right: 50px;
+	
+}
+
+	
+#navlist {
+	
+	position: relative; 
+
+	border: 5px solid brown;
+	height: auto;/*final*/
+	background-color: antiquewhite; 
+	
+	
+	
+	
+}
+
+#navlist li {
+	
+    list-style-type: none; /* makes bullets disappear*/
+	
+	background-image: url('images/pots1.png') ;
+	height: 65px;
+	width: 65px;
+	display: inline-flex;
+	/*border: #EB080C 5px solid;*/
+	
+	background-position: center;
+	background-repeat: no-repeat;	
+	background-color: floralwhite;
+	text-align: center;
+	justify-content: space-around;
+    
+	
+}
+
+
+
+nav li a.currentpage {
+	
+	list-style-type: none;
+	
+	background-image: url(images/pots3.png);
+	height: 65px;
+	width: 65px;
+	display: inline-flex;
+	/*border: #FF4B4B 5px solid;*/
+	
+	background-position: center;
+	background-repeat: no-repeat;
+	
+	text-align: center;
+	justify-content: space-around;
+
+}
+
+#home a:hover {
+	/*transition: 0.4s;*/
+    
+	list-style-type: none;
+	
+	background-image: url(images/pots2.png);
+	height: 65px;
+	width: 65px;
+	display: inline-flex;
+	border: #00F000 1px solid;
+	
+	background-position: center;
+	background-repeat: no-repeat;
+	
+	text-align: center;
+	justify-content: space-around;
+
+}
+
+#about a:hover {
+	transition: 0.4s;
+    
+	list-style-type: none;
+	
+	background-image: url(images/pots2.png);
+	height: 65px;
+	width: 65px;
+	display: inline-flex;
+	border: #FF4B4B 1px solid;
+	
+	background-position: center;
+	background-repeat: no-repeat;
+	
+	text-align: center;
+	justify-content: space-around;
+}
+
+#howto a:hover {
+	transition: 0.4s;
+    
+	list-style-type: none;
+	
+	background-image: url(images/pots2.png);
+	height: 65px;
+	width: 65px;
+	display: inline-flex;
+	border: #FF4B4B 1px solid;
+	
+	background-position: center;
+	background-repeat: no-repeat;
+	
+	text-align: center;
+	justify-content: space-around;
+}
+#album a:hover {
+	transition: 0.4s;
+    
+	list-style-type: none;
+	
+	background-image: url(images/pots2.png);
+	height: 65px;
+	width: 65px;
+	display: inline-flex;
+	border: #FF4B4B 1px solid;
+	
+	background-position: center;
+	background-repeat: no-repeat;
+	
+	text-align: center;
+	justify-content: space-around;
+		
+}
+
+#calendar a:hover {
+	transition: 0.4s;
+    
+	list-style-type: none;
+	
+	background-image: url(images/pots2.png);
+	height: 65px;
+	width: 65px;
+	display: inline-flex;
+	border: #FF4B4B 1px solid;
+	
+	background-position: center;
+	background-repeat: no-repeat;
+	
+	text-align: center;
+	justify-content: space-around;
+}
+
+#contact a:hover {
+	transition: 0.4s;
+    
+	list-style-type: none;
+	
+	background-image: url(images/pots2.png);
+	height: 65px;
+	width: 65px;
+	display: inline-flex;
+	border: #FF4B4B 1px solid;
+	
+	background-position: center;
+	background-repeat: no-repeat;
+	
+	text-align: center;
+	justify-content: space-around;
+}
+
+article {
+	border: 1px solid black;
+	margin: 10px;
+	border-radius: 50px;
+	background-color: #FAEBD7;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+h1 {
+	background-color: aliceblue;
+	border-radius: 25px;
+	max-width: 960px;
+	text-align: center;
+	padding: 20px;
+	
+}
+
+h2 {
+	background-color: beige;
+	border-radius: 25px;
+	max-width: 960px;
+	text-align: center;
+	box-shadow: 10px 10px 5px #888888;
+	margin: 10px;
+}
+
+h3 {
+	border-radius: 25px;
+	max-width: 960px;
+	text-align: center;
+	
+	
+	
+}
+
+p {
+	
+	border-radius: 25px;
+	max-width: 900px;
+	text-align: center;
+	padding: 5px;
+}
+
+img {
+	border-radius: 10px;
+	box-shadow: 10px 10px 5px #888888;
+
+}
+
+img.imagesideright{
+	
+	border: 10px solid transparent;
+	border-image: url(images/favicon2.png) 20% round;
+	float: right;
+	width: 300px;
+	height:400px;
+}
+
+#imagesideleft{
+	
+	border: 10px solid transparent;
+	border-image: url(images/favicon2.png) 20% round;
+	float: left;
+	width: 300px;
+	height:400px;
+}
+
+video {
+	align-content: center;
+}
+
+
+div {
+	padding: 1px;
+	
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+	box-shadow: 5px 5px 5px #888888;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+	
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+	background-color: antiquewhite;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+
+
+footer{
+	border: #FCECDF solid;
+	background-color: #a8ad70;
+	display: block;
+	clear: both;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+
+/*----------------------------  calendar        -------------------------*/
+
+
+
+
+div.title {
+    font: x-large Verdana, Arial, Helvetica, sans-serif;
+    text-align: center;
+    height: 40px;
+    background-color: white;
+    color: black;
+    }
+/* Styling for the footer */
+div.footer {
+    font: small Verdana, Arial, Helvetica, sans-serif;
+    text-align: center;
+	background-color: white;
+    }
+/* Styling for the overall table */
+table {
+    font: 100% Verdana, Arial, Helvetica, sans-serif;
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100%;
+	background-color: white;
+	border: 1px solid grey;
+    }
+/* Styling for the column headers (days of the week) */
+th {
+    padding: 0 0.5em;
+    text-align: center;
+    background-color:gray;
+    color:white;
+	border: 1px solid grey;
+	
+    }
+/* Styling for the individual cells (days) */
+td  {     
+    font-size: medium;
+    padding: 0.25em 0.25em;   
+    width: 14%; 
+    height: 80px;
+    text-align: left;
+    vertical-align: top;
+	border: 1px solid grey;
+    }
+/* Styling for the date numbers */
+.date  {     
+    font-size: large;
+    padding: 0.25em 0.25em;   
+    text-align: left;
+    vertical-align: top;
+    }
+
+.sun {
+     color:red;
+     }
+
+th.month {
+    visibility: hidden;
+    display:none;
+    }
+
+
+
+
+/* data table*/
+
+.data {
+	font-size: large;
+    padding: 0.25em 0.25em;   
+    text-align: left;
+    vertical-align: top;
+	min-width: 50px;
+}
+
+
+/*----------------------------  Contact Form without server side scripting --*/
+
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box; 
+    margin-top: 10px; 
+    margin-bottom: 15px;
+    resize: vertical; 
+}
+
+
+input[type=submit] {
+    background-color: green;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 25px;
+}
+
+/*----------------------------  media queries  --------------------------*/
+
+
+/*------------------ testing some, in comments on aoccasion... --------------------------------*/
+
+/* iPhone 6 plus--------------------------------------*/
+
+/* ----iPhone 6 plus in landscape media query---
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : landscape) {  STYLES GO HERE }
+
+/* iPhone 6 plus in portrait media query
+
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : portrait) { STYLES GO HERE }*/
+
+
+/* iPhone 5 & 5S plus---------------------------------*/
+
+
+/*iPhone 5 & 5S in landscape
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : landscape) { //STYLES GO HERE }*/
+
+/*iPhone 5 & 5S in portrait
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait) { // STYLES GO HERE  }*/
+@media only screen
+	and (min-width: 1px)
+	and (max-width: 500px){
+		
+		body {
+		background-color: #AD9470;
+		background-image: url(images/IMG_1449_small.jpg);
+		width: auto;
+		margin: 0 auto;
+		
+	}
+		
+		
+    .responsive {
+        width: 100%;
+    }
+		
+	video {
+    width: 100%;
+    height: auto;
+}
+		
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+@media only screen
+	and (min-width: 501px)
+	and (max-width: 960px){
+	
+	body {
+	background-color: #AD9470;
+	background-image: url(images/IMG_4287_300.jpg);
+	color: #000000; /* #000000 = black text*/
+	font-family: Verdana, Arial, sans-serif; /* these fonts are displayed in that order, depending on what is installed on the client */
+	width: auto;
+	margin: 0 auto;
+	}
+	
+	.responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+
+/*
+#home a:active {
+    background-image: url(images/pots3.png);
+	background-size: auto;
+	background-position: center;
+}
+
+#basics a:active {
+    background-image: url(images/pots1.png);
+	background-size: auto;
+	background-position: center;
+}
+
+#css a:active {
+    background-image: url(images/pots1.png);
+	background-size: auto;
+	background-position: center;
+}
+
+#fin a:active {
+    background-image: url(images/pots1.png);
+	background-size: auto;
+	background-position: center;
+}
+*/
+	
+
+	
